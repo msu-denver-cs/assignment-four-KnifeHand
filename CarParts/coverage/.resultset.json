@@ -1,7 +1,7 @@
 {
   "MiniTest": {
     "coverage": {
-      "/Users/matthewhurt/work/assignment-two-KnifeHand/CarParts/test/controllers/products_controller_test.rb": [
+      "/Users/matthewhurt/work/assignment-four-KnifeHand/CarParts/test/controllers/products_controller_test.rb": [
         1,
         null,
         1,
@@ -59,7 +59,7 @@
         null,
         null
       ],
-      "/Users/matthewhurt/work/assignment-two-KnifeHand/CarParts/test/models/car_test.rb": [
+      "/Users/matthewhurt/work/assignment-four-KnifeHand/CarParts/test/models/car_test.rb": [
         1,
         null,
         1,
@@ -84,7 +84,7 @@
         null,
         null
       ],
-      "/Users/matthewhurt/work/assignment-two-KnifeHand/CarParts/test/models/cars_product_test.rb": [
+      "/Users/matthewhurt/work/assignment-four-KnifeHand/CarParts/test/models/cars_product_test.rb": [
         1,
         null,
         1,
@@ -93,7 +93,7 @@
         null,
         null
       ],
-      "/Users/matthewhurt/work/assignment-two-KnifeHand/CarParts/test/models/product_test.rb": [
+      "/Users/matthewhurt/work/assignment-four-KnifeHand/CarParts/test/models/product_test.rb": [
         1,
         null,
         1,
@@ -138,7 +138,7 @@
         null,
         null
       ],
-      "/Users/matthewhurt/work/assignment-two-KnifeHand/CarParts/test/models/user_test.rb": [
+      "/Users/matthewhurt/work/assignment-four-KnifeHand/CarParts/test/models/user_test.rb": [
         1,
         null,
         1,
@@ -147,7 +147,7 @@
         null,
         null
       ],
-      "/Users/matthewhurt/work/assignment-two-KnifeHand/CarParts/app/models/product.rb": [
+      "/Users/matthewhurt/work/assignment-four-KnifeHand/CarParts/app/models/product.rb": [
         1,
         1,
         1,
@@ -156,6 +156,6 @@
         null
       ]
     },
-    "timestamp": 1573002316
+    "timestamp": 1575497261
   }
 }

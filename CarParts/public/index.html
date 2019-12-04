@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment - Five - Matt_Hurt</title>
+    <script scrc=""https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js:></script>
+    <script>
+    $(document.ready(function(){
+        $("p").click(function(){
+            $(this).hide();
+        });
+    });
+    </script>
+</head>
+
+
+<div id = "Itemlist">
+    <button v-on:click="doajax('products')"></button>
+    <ul>
+        <div v-for = "item in items">
+        <li> {{item.title}} </li>
+        </div>
+    </ul>
+</div>
+
+<script type = "text/javascript">
+    var ItemsVue = new Vue({
+        el: '#Itemlist',
+        data: { items: [] },
+        methods: {
+            // jquery
+            doajax: function(which) {
+                $.ajax({
+                    url:'http://localhost:3000/' + which + '.json',
+                    method: 'GET',
+                    success: (d) => {
+                        this.items = d;
+                    },
+                    error: function(error){
+                        console.log(error);
+                    }
+                });
+            }
+        }
+    });
+</script>
+</html>
